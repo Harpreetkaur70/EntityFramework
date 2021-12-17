@@ -6,12 +6,15 @@ using System.Threading.Tasks;
 
 namespace WebApplication1.Models
 {
+    /// <summary>
+    /// This class will be used to map the products with database
+    /// </summary>
     public class Product
     {
         [Key]
         public int  ProductID { get; set; }
         [Required]
-        public String Name { get; set; }
+        public string Name { get; set; }
         [Required]
         public string Description { get; set; }
         [Required]

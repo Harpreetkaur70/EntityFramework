@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace WebApplication1.Models
 {
+    /// <summary>
+    /// This class will be used to map the sale items with database
+    /// </summary>
     public class SaleItem
     {
         [Key]
